@@ -1,0 +1,133 @@
+body{
+margin:0;
+font-family:Segoe UI,sans-serif;
+background:#fafafa;
+color:#222;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+box-shadow:0 2px 15px rgba(0,0,0,.05);
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+margin:0 15px;
+font-weight:500;
+}
+
+nav a:hover{
+color:#f7c637;
+}
+
+.btn{
+background:#f7c637;
+border:none;
+padding:12px 24px;
+border-radius:10px;
+cursor:pointer;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.page-banner{
+text-align:center;
+padding:80px 20px;
+}
+
+.stats{
+max-width:1200px;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.projects{
+max-width:1200px;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+padding:50px;
+}
+
+.project-card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.reports{
+max-width:1000px;
+margin:auto;
+padding:40px;
+}
+
+.report-card{
+background:white;
+padding:25px;
+margin-bottom:15px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.contacts{
+max-width:1200px;
+margin:auto;
+padding:50px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.contact-form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,
+textarea{
+padding:15px;
+border:1px solid #ddd;
+border-radius:10px;
+}
+
+textarea{
+height:150px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:white;
+margin-top:50px;
+}
